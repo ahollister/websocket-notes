@@ -6,33 +6,33 @@
 /* Global custom styles */
 html *,
 body {
-	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 body {
-	background-image: url( './always-grey.png' );
-	background-repeat: repeat;
+  background-image: url( './always-grey.png' );
+  background-repeat: repeat;
 }
 
 .body {
-	display: block;
-	max-width: 95%;
-	margin: 0 auto;
+  display: block;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 button,
 .button {
-	border-radius: 5px;
-	padding: 13px 20px 12px 20px;
-	border: none;
-	color: white;
-	text-transform: uppercase;
-	background-color: #00b894;
+  border-radius: 5px;
+  padding: 13px 20px 12px 20px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #00b894;
 }
 
 button:hover,
 .button:hover {
-	background-color: #1dccaa;
-	cursor: pointer;
+  background-color: #1dccaa;
+  cursor: pointer;
 }

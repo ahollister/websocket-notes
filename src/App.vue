@@ -27,8 +27,8 @@ export default {
   name: 'app',
   components: {
     Header,
-		MessageBox
-	},
+    MessageBox
+  },
   data () {
     return {
       isLoggedIn: false,

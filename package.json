@@ -1,6 +1,6 @@
 {
   "name": "Websocket Notes",
-  "description": "A real time note taking application",
+  "description": "A real time note taking application using Websockets and Vue.js",
   "author": "Adam Hollister aaahollister@gmail.com",
   "private": true,
   "scripts": {
