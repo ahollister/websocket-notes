@@ -22,7 +22,7 @@ Given the time available, I went for a pared down approach avoiding Vuex and RxJ
 
 To start I set up a basic Vue app using vue-cli and a browserify template, and set up a websocket connection to test out the different events and start getting messages broadcasting to connected clients. I didn't quite get anything going with your provided socket server address, so I switched over to using echo.websocket.org for testing. Once I had more of the app set up, I hosted the provided socket in an Express server on Heroku here: ws://vast-brushlands-58657.herokuapp.com/
 
-You can find the code here:
+You can find the code here: https://github.com/ahollister/simple-socket
 
 I've tried to keep as much logic as possible outside of lower level components and in the App component. This is where messages are sent to the socket server and where they're handled, with the App component acting as a kind of controller for the rest of the app. This allows us to build more simple, reusable components, an example of this would be the MessageBox component, which takes some props and emits an event to the App component based on user input.
 
