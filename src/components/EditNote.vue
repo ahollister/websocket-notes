@@ -1,13 +1,11 @@
 <template>
   <div class="container">
-    <h2>{{ title }}</h2>
+    <h2>Edit Note:</h2>
     <div class="card">
-      <textarea name="messagebox"
-                class="messagebox"
+      <textarea name="editNote"
                 maxlength="500"
-                v-bind:placeholder="placeholder"
-                v-model="message">
-        {{message}}
+                v-model="content">
+        {{content}}
       </textarea>
       <button href="#" v-on:click="submit">Submit</button>
     </div>
@@ -18,17 +16,20 @@
 export default {
   data() {
     return {
-      message: ''
+      content: ''
     }
   },
-  name: 'messagebox',
-  props: ['title', 'placeholder'],
+  name: 'editnote',
+  props: ['note'],
+  mounted: function() {
+    this.content = this.note.content
+  },
   methods: {
     submit: function() {
-      if (this.message.length) {
-        this.$emit('submit', this.message)
+      if (this.content.length) {
+        this.$emit('submit', this.content)
       }
-      this.message = ''
+      this.content = ''
     }
   }
 }
