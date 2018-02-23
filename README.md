@@ -23,6 +23,6 @@ http://rfstaging.aaahollister.webfactional.com/websocket-notes/
 2. 'Log in' with different usernames
 3. You should be able to:
  - See other active users log in and leave
- - Create and edit notes in real time and have other users' state updated accordingly
- - see real time updates from other users leaving and editing Notes
+ - Create, edit and delete notes in real time and have other users' state updated accordingly
+ - see real time updates from other users leaving, editing and deleting notes
  - Notes should persist in localstorage
